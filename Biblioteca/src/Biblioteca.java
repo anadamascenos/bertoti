@@ -4,6 +4,9 @@ public class Biblioteca {
         private String nome;
         private String endereco;
 
+        public Biblioteca(String bibliotecaMunicipal, String s) {
+        }
+
         public String getNome() {
                 return nome;
         }
@@ -39,4 +42,6 @@ public class Biblioteca {
                 return livros;
         }
 
+        public void adicionarLivros(Livros livro1) {
+        }
 }
